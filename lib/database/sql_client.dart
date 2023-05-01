@@ -20,8 +20,8 @@ class MySQLClient {
     _connection = await MySQLConnection.createConnection(
       port: 3306,
       host: '127.0.0.1',
-      userName: 'newuser',
-      password: 'password',
+      userName: 'root',
+      password: '',
       databaseName: 'test',
       secure: false,
       collation: 'latin1_swedish_ci',
